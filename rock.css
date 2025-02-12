@@ -1,0 +1,30 @@
+body{
+    height: 700px;
+    background-image:url(Retro\ Wallpaper\ _\ ROCK\ AND\ ROLL.jpeg) ;
+    background-size:cover ;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+    
+}
+.image-text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+    color:burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
